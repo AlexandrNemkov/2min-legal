@@ -1,0 +1,12 @@
+:root{--bg:#F3EFE6;--card:#FBF8F2;--ink:#23302A;--muted:#5A6660;--accent:#3E5A4A;--line:#E8E2D5}
+@media (prefers-color-scheme:dark){:root{--bg:#141816;--card:#1D2320;--ink:#ECE8DF;--muted:#A9B3AD;--accent:#9FC2A9;--line:#2A322E}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 80px}
+.brand{margin:0 0 8px;font:600 14px/1 -apple-system,sans-serif;letter-spacing:.6px;text-transform:uppercase;color:var(--accent)}
+h1{margin:0 0 12px;font:500 36px/1.15 ui-serif,"New York",Georgia,serif}
+h2{margin:32px 0 8px;font:600 18px/1.3 -apple-system,sans-serif}
+p{margin:0 0 12px}
+.muted{color:var(--muted);font-size:14px}
+a{color:var(--accent)}
+hr{margin:48px 0;border:0;border-top:1px solid var(--line)}
